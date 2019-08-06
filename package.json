@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.0",
+        "concurrently": "^4.1.1"
+    },
+    "scripts": {
+        "start": "concurrently 'tsc --watch' 'nodemon --watch server.js --watch build server.js'"
+    }
+}
